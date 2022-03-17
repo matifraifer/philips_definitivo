@@ -7,15 +7,53 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>OneBlade | Philips</title>
 </head>
 <body>
-    <header>
+    <header style="position: absolute;">
 
     </header>
+    
     <main>
-        <img src="./assets/Foto principal.svg" class="tamanioFotos" alt="">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner contCarusel_principal">
+            <div class="titulo_principal">
+                <img style="margin-left: 5em; ;" src="./assets/logo.png" alt="">
+                <div style="margin-top: 10em; margin-left: 4em;">
+                    <h1 class="titulo_main">
+                        TU ESTILO SIN
+                    </h1>
+                    <h1 class="titulo_main">
+                        COMPLICARTE
+                    </h1>
+                    <p class="subtitulo_main">Recorta, perfila y afeita cualquier longitud de barba</p>
+                    <a href="https://www.tienda.philips.com.ar/64-oneblade" target="_blank">
+                        <button class="botonAzul">Ver más ></button>
+                    </a>
+                </div>
+            </div>
+          <div class="carousel-item active">
+            <div class="alto foto1 w-100"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="alto foto2 w-100"></div>
+            </div>
+          <div class="carousel-item">
+              <div class="alto foto3 w-100"></div>
+          </div>
+        </div>
+        <button class="carousel-control-prev botonCarusel centrarBotones" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden ">Previous</span>
+        </button>
+        <button class="carousel-control-next botonCarusel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
     </main>
     <section class="sectionPrincipal">
         <div class="principal_contFotos">
@@ -35,12 +73,14 @@
                 <li><span class="white light"><span class="bold">3 indicadores</span> de batería LED</span></li>
                 <li><span class="white light">Uso <span class="bold">seco y húmedo</span></span></li>
             </ul>
-            <h1 class="price">$00.000</h1>
-            <button class="botonAzul">Comprar ></button>
+            <h1 class="price">$7.199</h1>
+            <a href="https://www.tienda.philips.com.ar/oneblade/1730-oneblade-pro-qp653015-recorta-modela-y-afeita.html" target="_blank">
+                <button class="botonAzul">Comprar ></button>
+            </a>
         </div>
     </section>
     
-    <section class="sectionDos">
+    <section class="sectionDos" >
         <div class="dosContenedorTitulo">
             <h1 class="dosTitulo">One<span class="dosTituloSpan">Blade</span></h1>
             <h1 class="dosTituloSecondLine">LO HACE TODO</h1>  
@@ -186,9 +226,11 @@ cortes. Define tu estilo en segundos.
                 </div>
                 <div class="contTituloCard_compras">
                     <div class="cardTitulo_compras"><span>One</span>Blade Pro</div>
-                    <div class="precio_compras">$ 12.345</div>
+                    <div class="precio_compras">$ 7.199</div>
                 </div>
-                <button class="button_compras">COMPRAR</button>
+                <a href="https://www.tienda.philips.com.ar/oneblade/1730-oneblade-pro-qp653015-recorta-modela-y-afeita.html" target="_blank">
+                    <button class="button_compras">COMPRAR</button>
+                </a>
                 <div>
 
                     <div class="contCaract_compras">
@@ -215,14 +257,16 @@ cortes. Define tu estilo en segundos.
 
             <div class="card_compras">
                 <div class="fotoCard_compras">
-                    <img src="./assets/compra2.svg" alt="" width="">
-
+                    <img src="./assets/fotoproudcto3.png" alt="" width="420">
+                    <!-- Aca va la foto nueva -->
                 </div>
                 <div class="contTituloCard_compras">
                     <div class="cardTitulo_compras"><span>One</span>Blade</div>
-                    <div class="precio_compras">$ 12.345</div>
+                    <div class="precio_compras">$ 6.499</div>
                 </div>
-                <button class="button_compras">COMPRAR</button>
+                <a href="https://www.tienda.philips.com.ar/oneblade/1855-philips-oneblade-qp262021face-body-recorta-perfila-y-afeita.html" target="_blank">
+                    <button class="button_compras">COMPRAR</button>
+                </a>
                 <div>
 
                     <div class="contCaract_compras">
@@ -249,14 +293,16 @@ cortes. Define tu estilo en segundos.
 
             <div class="card_compras">
                 <div class="fotoCard_compras">
-                    <img src="./assets/compra3.svg" alt="" width="">
+                    <img src="./assets/compra2.svg" alt="" width="">
 
                 </div>
                 <div class="contTituloCard_compras">
                     <div class="cardTitulo_compras"><span>One</span>Blade</div>
-                    <div class="precio_compras">$ 12.345</div>
+                    <div class="precio_compras">$ 4.999</div>
                 </div>
-                <button class="button_compras">COMPRAR</button>
+                <a href="https://www.tienda.philips.com.ar/oneblade/14-philips-oneblade-recorta-modela-y-afeita-cualquier-longitud-de-barba.html" target="_blank">
+                    <button class="button_compras">COMPRAR</button>
+                </a>
                 <div>
 
                     <div class="contCaract_compras">
@@ -291,11 +337,29 @@ cortes. Define tu estilo en segundos.
             <P class="subtitulo_repuestos separacion">SIEMPRE QUE LO NECESITES</P>
         </div>
         <div class="contRepuesto_repuestos">
-            <div class="fondoRepuesto_repuestos">
-                <img src="./assets/repuesto1.svg" alt="" width="300px">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div class="fondoRepuesto_repuestos">
+                    <img src="./assets/repuesto1.svg" alt="" width="300px">
+                </div>
+                <a style="width: 80%;" href="https://www.tienda.philips.com.ar/oneblade/54-cuchilla-reemplazable-para-oneblade-blister-x-1-unidad.html" target="_blank">
+                    <button style=" margin-top: 1em;" class="button_compras">COMPRAR</button>
+                </a>           
             </div>
-            <div class="fondoRepuesto_repuestos">
-                <img src="./assets/repuesto2.svg" alt="" width="300px">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div class="fondoRepuesto_repuestos">
+                    <img src="./assets/repuesto_3 copia.png" alt="" width="350px">
+                </div>
+                <a style="width: 80%;" href="https://www.tienda.philips.com.ar/oneblade/1670-cuchilla-kit-para-el-cuerpo-para-oneblade.html" target="_blank">
+                    <button style=" margin-top: 1em;" class="button_compras">COMPRAR</button>
+                </a>            
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div class="fondoRepuesto_repuestos">
+                    <img src="./assets/repuesto2.svg" alt="" width="300px">
+                </div>
+                <a style="width: 80%;" href="https://www.tienda.philips.com.ar/oneblade/53-cuchilla-reemplazable-para-oneblade-pack-x-2-unidades.html" target="_blank">
+                    <button style=" margin-top: 1em;" class="button_compras">COMPRAR</button>
+                </a>
             </div>
         </div>
     </section>
@@ -348,5 +412,7 @@ cortes. Define tu estilo en segundos.
             <img src="./assets/Grupo 498.svg" alt="">
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

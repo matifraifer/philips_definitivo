@@ -12,6 +12,52 @@
     margin: 0px;
 
 }
+a{
+    width: 100%;
+}
+
+.contCarusel_principal{
+    position: relative;
+}
+.titulo_principal{
+    position: absolute;
+    z-index: 1;
+}
+.titulo_main{
+    color: white;
+    font-weight: bolder;
+    line-height: 0.9em;
+    font-size: 4em;
+
+}
+.subtitulo_main{
+    color: white;
+}
+.alto{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.foto1{
+    background-image: url(./assets/Foto\ principal.svg);
+}
+.foto2{
+    background-image: url(./assets/foto\ principal2.jpeg);
+}
+.foto3{
+    background-image: url(./assets/fotoprincipal3.jpeg);
+}
+.botonCarusel{
+    height: 10%;
+    width: 4em;
+    margin-top: 40vh;
+    
+}
+.centrarBotones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 main{
     background-color: var(--fondo);
 }
@@ -110,10 +156,8 @@ hr{
 
 .sectionDos{
     background-image: url(./assets/Fondo\ section\ 2.png);
-    width: 100%;
-    height: 100vh;
-    padding-top: 2em;
-    padding-bottom: 10em;
+
+    padding-bottom: 5em;
 }
 
 .dosContenedorTitulo{
@@ -235,9 +279,8 @@ hr{
 
 .contTituloCard_caracteristicas{
     background-color: #CBdb2a;
-    padding-bottom: 10px;
-    padding-top: 5px;
-    height: 10%;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -332,7 +375,7 @@ hr{
 }
 
 .button_compras{
-    width: 90%;
+    width: 100%;
     height: 50px;
     background-color: var(--fondoOscurpo);
     border: 2px solid #cbdb2a;
@@ -362,8 +405,8 @@ hr{
 .fondoRepuesto_repuestos{
     background-color: #0B183B;
     padding: 2em;
-    width: 20em;
-    height: 20em;
+    width: 25em;
+    height: 25em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -419,8 +462,8 @@ hr{
 .meses_duracion{
     font-size: 10em;
     position: absolute;
-    bottom: 2.4em;
-    left: 3em;
+    bottom: 3.2em;
+    left: 2em;
     -webkit-text-stroke: 2px #0066A1;
     color: transparent;
 }
