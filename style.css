@@ -558,9 +558,7 @@ button{
 }
 
 @media screen and (max-width:600px) {
-    html{
-        background-color: #0F204B;
-    }
+
     /* button */
     .botonAzul{
         width: 95vw;
