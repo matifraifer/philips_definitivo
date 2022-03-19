@@ -561,7 +561,7 @@ button{
 
     /* button */
     .botonAzul{
-        width: 95vw;
+        width: 90vw;
     }
     /* Main */
     .logo_philips{
@@ -680,7 +680,7 @@ button{
         margin-bottom: 0px;
     }
     .subtitulo_caracteristicas{
-        font-size: 5em;
+        font-size: 4em;
         margin-top: 0px;
     }
     .contCard_caracteristicas{
