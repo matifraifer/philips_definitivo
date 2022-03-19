@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/faviconPhilips.svg" >
     <title>OneBlade | Philips</title>
 </head>
 <body>
@@ -20,8 +21,8 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner contCarusel_principal">
             <div class="titulo_principal">
-                <img style="margin-left: 5em; ;" src="./assets/logo.png" alt="">
-                <div style="margin-top: 10em; margin-left: 4em;">
+                <img src="./assets/logo.png" class="logo_philips" alt="">
+                <div class="cont_main_media">
                     <h1 class="titulo_main">
                         TU ESTILO SIN
                     </h1>
@@ -52,18 +53,19 @@
           <span class="carousel-control-next-icon " aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
 
     </main>
     <section class="sectionPrincipal">
         <div class="principal_contFotos">
-            <img src="./assets/Enmascarar grupo 17.svg" alt="" class="principal_fotos principal_fotoUno" >
-            <img src="./assets/Enmascarar grupo 16.svg" alt="" class="principal_fotos principal_fotoDos" >
+            <img src="./assets/fotoprincipal.svg" alt="" class="principal_fotos principal_fotoUno" >
+
         </div>
         
         <div>
             <h1 class="tituloSectionUno">One<span class="tituloSectionUnoSpan">Blade Pro</span></h1>
             <h4 class="white subtituloSectionUno">ROSTRO</h4>
+            <p style="color:#0066A1; text-align: start; margin-left: 10px; width: 100%;">QP6530</p>
             <hr>
             <ul class="listaSectionUno">
                 <li><span class="white light">Duración de <span class="bold">90 minutos</span> de batería</span></li>
@@ -81,13 +83,94 @@
     </section>
     
     <section class="sectionDos" >
+        
         <div class="dosContenedorTitulo">
-            <h1 class="dosTitulo">One<span class="dosTituloSpan">Blade</span></h1>
-            <h1 class="dosTituloSecondLine">LO HACE TODO</h1>  
+            <p class="dosTitulo">One<span>Blade</span></p>
+            <p class="dosTituloSecondLine">LO HACE TODO</p>  
             <div>
                 <p class="dosParrafo">RECORTA, PERFILA Y AFEITA CUALQUIER LONGITUD DE PELO</p>
             </div>
         </div>
+        <!-- solo para mobil -->
+        <div id="carouselExampleIndicators" class="carousel slide carrusel_movil" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                    <div class=" w-100 centrar_carrusel">
+                        <div class="card ">
+                            <div class="videoCard">
+                                <img src="./assets/button play.svg" alt="" width="100px">
+                            </div>
+                            <div class="contTituloCara">
+                                <div class="contCara">
+                                    <img src="./assets/caraRecorta.svg" alt="" width="40px">
+                                </div>
+                                <div class="cardTitulo">RECORTA</div>
+                            </div>
+                            <div class="contDescripcion">
+                                <p class="cardDescripcion">
+                                    Utiliza el peine recortador de  precisión regulable incluido  para recortar la barba y  obtener un resultado uniforme. Con 12 posiciones  de longitud de 0,5 a 9mm y sistema de bloqueo para lograr el estilo deseado.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+              <div class="carousel-item">
+                <div class="w-100 centrar_carrusel">
+                    <div class="card">
+                        <div class="videoCard">
+                            <img src="./assets/button play.svg" alt="" width="100px">
+                        </div>
+                        <div class="contTituloCara">
+                            <div class="contCara">
+                                <img src="./assets/CaraPerfila.svg" alt="" width="40px">
+                            </div>
+                            <div class="cardTitulo">PERFILA</div>
+                        </div>
+                        <div class="contDescripcion">
+                            <p class="cardDescripcion">
+                                Crea líneas precisas con la  cuchilla de doble filo. Puedes afeitar en cualquier dirección y así ver bien cada vello que 
+        cortes. Define tu estilo en segundos.
+        
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="w-100 centrar_carrusel">
+                    <div class="card">
+                        <div class="videoCard">
+                            <img src="./assets/button play.svg" alt="" width="100px">
+                        </div>
+                        <div class="contTituloCara">
+                            <div class="contCara">
+                                <img src="./assets/caraAfeita.svg" alt="" width="40px">
+                            </div>
+                            <div class="cardTitulo">AFEITA</div>
+                        </div>
+                        <div class="contDescripcion">
+                            <p class="cardDescripcion">
+                                OneBlade no afeita tan al ras como las cuchillas tradicionales, a fin que el  proceso sea cómodo para tu piel. Muévela en dirección contraria al crecimiento del vello y afeita cómodamente cualquier longitud de barba.                    </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+<!-- Finaliza el carrusel apra moviles -->    
         <div class="contenedorCard">
             <div class="card">
                 <div class="videoCard">
@@ -143,11 +226,82 @@ cortes. Define tu estilo en segundos.
         </div>
     </section>
     <!-- Caracteristicas -->
+    
     <section class="section_caracteristicas">
         <div class="contTitulo_caracteristicas">
             <p class="titulo_caracteristicas">CARACTERÍSTICAS</p>
             <h1 class="subtitulo_caracteristicas">One<span>Blade</span></h1> 
         </div>
+        <!-- Caracteristicas para movil -->
+        <div id="carouselExampleControlsNoTouching" class="carousel slide caracteristica_movil" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="w-100 cardCarusel_caracteristicas">
+                    <div class="card_caracteristicas">
+                        <div class="fotoCard_caracteristicas">
+                            <img src="./assets/caracteristicas1.svg" alt="" width="100%">
+                        </div>
+                        <div class="contTituloCard_caracteristicas">
+                            <div class="cardTitulo_caracteristicas">PEINE-GUÍA DE PRECISIÓN</div>
+                            <div class="cardTitulo_caracteristicas">12 POSICIONES DE LONGITUD</div>
+                            <div class="cardTituloMini_caracteristicas">(DE 0,5 A 9 MM)</div>
+                        </div>
+                        <div class="contDescripcion_caracteristicas">
+                            <p class="cardDescripcion_caracteristicas">
+                                El versátil peine-guía de precisión ofrece posiciones de longitud de 0,5mm a 9mm, lo que te proporciona un corte uniforme exactamente a la longitud que desees. 
+                            </p>               
+                        </div>     
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="w-100 cardCarusel_caracteristicas">
+                    <div class="card_caracteristicas">
+                        <div class="fotoCard_caracteristicas">
+                            <img src="./assets/caracteristicas2.svg" alt="" width="100%">
+                        </div>
+                        <div class="contTituloCard_caracteristicas">
+                            <div class="cardTitulo_caracteristicas">CREA LÍNEAS PRECISAS Y</div>
+                            <div class="cardTitulo_caracteristicas">DEFINIDAS CON LA CUCHILLA</div>
+                            <div class="cardTitulo_caracteristicas">DE DOBLE CARA</div>
+                        </div>
+                        <div class="contDescripcion_caracteristicas">
+                            <p class="cardDescripcion_caracteristicas">
+                                Tecnología revolucionara exclusiva OneBlade, que sigue los contornos del rostro para que puedas afeitar todas las zonas faciales con total comodidad y fácilmente en cualquier dirección, gracias a sus sistema de protección dobrle, con un revestimiento deslizante con puntas redondeadas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="w-100 cardCarusel_caracteristicas">
+                    <div class="card_caracteristicas">
+                        <div class="fotoCard_caracteristicas">
+                            <img src="./assets/caracteristicas3.svg" alt="" width="100%">
+                        </div>
+                        <div class="contTituloCard_caracteristicas">
+                            <div class="cardTitulo_caracteristicas">BATERÌA DE IONES DE LITIO</div>
+                            <div class="cardTitulo_caracteristicas">DE 90 MINUTOS</div>
+                        </div>
+                        <div class="contDescripcion_caracteristicas">
+                            <p class="cardDescripcion_caracteristicas">
+                                La batería de iones de litio recargable ofrece 90 minutos de rendimiento constante después de una carga de una hora.
+                            </p>
+                        </div>    
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!-- finaliza caracteristicas para movil -->
         <div class="contCard_caracteristicas">
             <div class="card_caracteristicas">
                 <div class="fotoCard_caracteristicas">
@@ -162,9 +316,8 @@ cortes. Define tu estilo en segundos.
                     <p class="cardDescripcion_caracteristicas">
                         El versátil peine-guía de precisión ofrece posiciones de longitud de 0,5mm a 9mm, lo que te proporciona un corte uniforme exactamente a la longitud que desees. 
                     </p>               
-                    </div>
-                        
-                    </div>
+                </div>     
+            </div>
         
             <div class="card_caracteristicas">
                 <div class="fotoCard_caracteristicas">
@@ -221,6 +374,7 @@ cortes. Define tu estilo en segundos.
         </div>
         <div class="contCard_compras">
             <div class="card_compras">
+                <p style="color:#0066A1; text-align: start; width: 100%;">QP6530</p>
                 <div class="fotoCard_compras">
                     <img src="./assets/compra1.svg" alt="" width="">
                 </div>
@@ -256,9 +410,9 @@ cortes. Define tu estilo en segundos.
             </div>
 
             <div class="card_compras">
+                <p style="color:#0066A1; text-align: start; width: 100%;">QP2620/21</p>
                 <div class="fotoCard_compras">
                     <img src="./assets/fotoproudcto3.png" alt="" width="420">
-                    <!-- Aca va la foto nueva -->
                 </div>
                 <div class="contTituloCard_compras">
                     <div class="cardTitulo_compras"><span>One</span>Blade</div>
@@ -292,6 +446,7 @@ cortes. Define tu estilo en segundos.
             </div>
 
             <div class="card_compras">
+                <p style="color:#0066A1; text-align: start; width: 100%;">QP2521/10</p>
                 <div class="fotoCard_compras">
                     <img src="./assets/compra2.svg" alt="" width="">
 
@@ -337,26 +492,33 @@ cortes. Define tu estilo en segundos.
             <P class="subtitulo_repuestos separacion">SIEMPRE QUE LO NECESITES</P>
         </div>
         <div class="contRepuesto_repuestos">
+
             <div style="display: flex; flex-direction: column; align-items: center;">
                 <div class="fondoRepuesto_repuestos">
                     <img src="./assets/repuesto1.svg" alt="" width="300px">
                 </div>
+                <p style="color:#0066A1; text-align: center; width: 100%;">QP210/51</p>
+
                 <a style="width: 80%;" href="https://www.tienda.philips.com.ar/oneblade/54-cuchilla-reemplazable-para-oneblade-blister-x-1-unidad.html" target="_blank">
                     <button style=" margin-top: 1em;" class="button_compras">COMPRAR</button>
                 </a>           
             </div>
-            <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="display: flex; flex-direction: column; align-items: center;" class="contCard_repuesto">
                 <div class="fondoRepuesto_repuestos">
-                    <img src="./assets/repuesto_3 copia.png" alt="" width="350px">
+                    <img src="./assets/repuesto3.png" alt="" width="350px">
                 </div>
+                <p style="color:#0066A1; text-align: center; width: 100%;">QP610/50</p>
+
                 <a style="width: 80%;" href="https://www.tienda.philips.com.ar/oneblade/1670-cuchilla-kit-para-el-cuerpo-para-oneblade.html" target="_blank">
                     <button style=" margin-top: 1em;" class="button_compras">COMPRAR</button>
                 </a>            
             </div>
-            <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="display: flex; flex-direction: column; align-items: center;" class="contCard_repuesto">
                 <div class="fondoRepuesto_repuestos">
                     <img src="./assets/repuesto2.svg" alt="" width="300px">
                 </div>
+                <p style="color:#0066A1; text-align: center; width: 100%;">QP220/51</p>
+
                 <a style="width: 80%;" href="https://www.tienda.philips.com.ar/oneblade/53-cuchilla-reemplazable-para-oneblade-pack-x-2-unidades.html" target="_blank">
                     <button style=" margin-top: 1em;" class="button_compras">COMPRAR</button>
                 </a>
