@@ -558,7 +558,13 @@ button{
 }
 
 @media screen and (max-width:600px) {
-    
+    html{
+        background-color: #0F204B;
+    }
+    /* button */
+    .botonAzul{
+        width: 95vw;
+    }
     /* Main */
     .logo_philips{
         width: 8em;
@@ -635,7 +641,7 @@ button{
         margin-top: 20px;
     }
     .dosContenedorTitulo{
-        margin: 20px;
+
         padding: 20px;
         width: 100%;
     }
@@ -643,6 +649,7 @@ button{
         margin: 0px;
         padding: 0px;
         font-size: 3em;
+        line-height: 40px;
     }
     .carrusel_movil{
         display: flex;
@@ -709,11 +716,15 @@ button{
         margin-top: 20px;
         width: 95%;
     }
+    .imagen_compras{
+        width: 80%;
+    }
 
     /* repuestos */
     .contRepuesto_repuestos{
         display: flex;
         flex-direction: column;
+
     }
     .contCard_repuesto{
         margin-top: 100px;
@@ -734,6 +745,10 @@ button{
         text-align: center;
 
     }
+    .fondoRepuesto_repuestos{
+        width: 300px;
+        height: 300px;
+    }
     /* Section duracion */
     .section_duracion{
         display: flex;
@@ -745,14 +760,14 @@ button{
         margin-top: 30px;
     }
     .titulo_duracion{
-        line-height: 0px;
+        line-height: 55px;
         margin-top: 140px;
     }
     .subtitulo_duracion{
         line-height: 65px;
     }
     .meses_duracion{
-        font-size: 6em;
+        font-size: 500%;
         top: 35%;
         left: 4%;
         right: 0px;
