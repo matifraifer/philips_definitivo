@@ -225,6 +225,22 @@ hr{
     align-items: center;
     justify-content: center;
 }
+.videoCardDos{
+    background-image: url(./assets/img\ perfila.svg);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.videoCardTres{
+    background-image: url(./assets/img\ afeita.svg);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
 .contTituloCara{
     display: flex;
     align-items: center;
